@@ -41,8 +41,23 @@ The project follows the **MVC (Model-View-Controller)** pattern for scalability:
 - **Database**: MongoDB
 - **ODM**: Mongoose
 
-## 🚀 Getting Started
+## ⚙️ Installation & Setup
 
-1. **Clone the repository**:
-   ```bash
-   git clone (https://github.com/05adi/Blog-App)
+1.  **Clone the project**:
+    ```bash
+    git clone (https://github.com/05adi/Blog-App)
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Setup Environment Variables**:
+    Create a `.env` file in the root directory:
+    ```env
+    PORT=3000
+    Database_url=your_mongodb_uri
+    ```
+4.  **Start the server**:
+    ```bash
+    npm start
+    ```
